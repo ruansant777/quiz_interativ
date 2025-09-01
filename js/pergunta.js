@@ -38,20 +38,20 @@ const perguntas = [
     ]
   },
   {
-    enunciado: "homem aranha 1, 2 ou 3?"
+    enunciado: "homem aranha 1 ou 2?"
     alternativas: [
        {
-          texto: "afirmativa 1",
+          texto: "homem aranha 1",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "tobey maguire e mol ruim",
+            "o traje e mol paia"
           ], 
        },
        {
-          texto: "afirmativa 2",
+          texto: "homem aranha 2",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "andrew garfield e melhor",
+            " o balanço de teia e bem mais trabalhado"
           ], 
        }, 
     ]
@@ -60,17 +60,17 @@ const perguntas = [
     enunciado: "livro ou filme?"
     alternativas: [
        {
-          texto: "afirmativa 1",
+          texto: "livro",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "a historia e bem contada",
+            "mais marcante ne?"
           ], 
        },
        {
-          texto: "afirmativa 2",
+          texto: "filme",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "mais emoçao",
+            "com atores renomados"
           ], 
        }, 
     ]
@@ -79,17 +79,17 @@ const perguntas = [
     enunciado: "lavar 20 pratos e 40 talheres ou 5 panelas engorduradas"
     alternativas: [
        {
-          texto: "afirmativa 1",
+          texto: "lavar prato e talheres",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "bem melhor",
+            "mais facil também"
           ], 
        },
        {
-          texto: "afirmativa 2",
+          texto: "5 panelas",
           afirmacao: [
-            "afirmação 1",
-            "afirmação 2"
+            "ce ta doidjo",
+            "tu e muito e burro, malucao"
           ], 
        }, 
     ]
