@@ -10,6 +10,7 @@ const telaIniciar = document.querySelector(".tela-incial");
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 botaoIniciar.addEventListener('click, iniciarJogo');
 
@@ -18,8 +19,30 @@ function iniciaJogo() {
     telaInicial.style.display = 'none';
     caixaPerguntas.classList.remove(".mostrar");
     caixaAlternativas.classList.remove(".mostrar");
-    caixaResultado.classList.removo(".mostrar");
-    mostraPergunta();
+    caixaResutado.classList.remove(".mostrar");
+    mostrarPergunta();
 }
 
-function mostraPergunta() {};
+function mostraPergunta() {
+    if(atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
+   perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
+    mostraAlternativas();
+}
+
+function mostraAlternativa() {}
+
+function mostraResultado() {
+  caixaPerguntas.textContent = 'Após tudo isso, ${nome} morreu feliz';
+    textResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add(".mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+}
+
+function jogarNovamente() {}
+}
