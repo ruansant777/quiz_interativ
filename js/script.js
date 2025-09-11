@@ -44,5 +44,38 @@ function mostraResultado() {
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-function jogarNovamente() {}
-}
+function jogarNovamente() {
+
+    function respostaSelecionada(opcaoSelecionada) {
+        const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+        historiaFinal += afirmacoes + " ";
+        if(opcaoSelecionada.proxima !== undefined) {
+            atual = opcaoSelecionada.proxime;
+        }else {
+            mostraResultado();
+            return;
+        }
+        mostraPergunta();
+    }
+  function mostraResultado() {
+  caixaPerguntas.textContent = 'Após tudo isso, ${nome} morreu feliz';
+    textResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add(".mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+    
+
+
+    function jogarNovamente() {
+        atual = 0;
+        historiaFinal = "";
+        caixaResultado.classList.remove("mostrar");
+        mostraPergunta();
+    }
+
+    function substituiNome() {
+        for(const pergunta os perguntas) {
+            perguntas.enunciado = pergunta.enunciado.replace(/você/g, nome);
+        }
+    }
+      substiuiNome();
