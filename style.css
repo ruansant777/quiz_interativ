@@ -1,38 +1,38 @@
+@import url
 
+:root {
+  --cor-fundo: #d6f3e6;
+  --cor-principal: #97b884;
+  --cor-secundaria: #212333;
+  --cor-destaque: #546459;
+  --cor-texto: #eeffd7;
+}
 
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-itens: center;
+  min-height: 100vh;
+}
 
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
 
+h1, . caixa-perguntas, .caixa-resultado {
+  font-family: 'Chakra Petch' sans-serif;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1 {
+  color: var(--cor-destaque);
+}
 
 button {
   backgtound-color: var(--cor-secundaria);
@@ -48,3 +48,16 @@ button:hover{
   color: var(--cor-principal);
 }
 
+.caixa-alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.caixa-resultado {
+  display: none;
+}
+
+.caixa-resultado.mostrar {
+  display: block;
+}
