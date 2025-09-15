@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
   {
     enunciado: "fortinite ou free fire?"
     alternativas: [
