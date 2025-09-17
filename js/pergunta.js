@@ -1,95 +1,95 @@
 export const perguntas = [
   {
-    enunciado: "fortinite ou free fire?"
+    enunciado: "Churrasco ou Sushi"
     alternativas: [
        {
-          texto: "fortinite",
+          texto: "Churrasco",
           afirmacao: [
-            "fortinite é melhor",
-            "boa"
+            "Fez uma carne boa? entao fechou",
+            "sabe que a cervejinha nao pode faltar ne"
           ], 
        },
        {
-          texto: "free fire",
+          texto: "Sushi",
           afirmacao: [
-            "cê é bobão",
-            "nada a ve "
+            "Deve ter coragem",
+            "nao e todo mundo que entende arroz e peixe "
           ], 
        }, 
     ]
   },
 {
-    enunciado: "vilão ou herói?"
+    enunciado: "Cerveja ou Caipirinha?"
     alternativas: [
        {
-          texto: "vilão",
+          texto: "Cerveja",
           afirmacao: [
-            "dependendo do vilão até vai",
-            "todo vilão é mal se a história for contada pelo herói..."
+            "ja ganhou",
+            "aqui e barzinho, nao tem frescura"
           ], 
        },
        {
-          texto: "herói",
+          texto: "Caipirinha",
           afirmacao: [
-            "dependendo do herói...",
-            "daora"
+            "te de boa com fruta ne? cuidado com o açucar so",
+            "é uma caipirinha e a noite é nossa"
           ], 
        }, 
     ]
   },
   {
-    enunciado: "homem aranha 1 ou 2?"
+    enunciado: "Dormir ou ficar acordado ate tarde?"
     alternativas: [
        {
-          texto: "homem aranha 1",
+          texto: "dormir",
           afirmacao: [
-            "tobey maguire e mol ruim",
-            "o traje e mol paia"
+            "descanso é essencial, dps a gente se vira",
+            "vai perder o role, mas fechou, cada um com seus problemas"
           ], 
        },
        {
-          texto: "homem aranha 2",
+          texto: "ficar acordado ate tarde",
           afirmacao: [
-            "andrew garfield e melhor",
-            " o balanço de teia e bem mais trabalhado"
+            "zumbizao do role",
+            "vai virar a madruga a culpa é sua"
           ], 
        }, 
     ]
   },
     {
-    enunciado: "livro ou filme?"
+    enunciado: "comprar roupa ou comida?"
     alternativas: [
        {
-          texto: "livro",
+          texto: "Roupa?",
           afirmacao: [
-            "a historia e bem contada",
-            "mais marcante ne?"
+            "dizem que roupa nova vida nova ",
+            "nao vai comprar roupa que amassa pelo amor de Deus"
           ], 
        },
        {
-          texto: "filme",
+          texto: "Comida?",
           afirmacao: [
-            "mais emoçao",
-            "com atores renomados"
+            "comida sempre vence, nunca se tem comida de mais",
+            "esse sim é o verdadeiro investimento"
           ], 
        }, 
     ]
   },
       {
-    enunciado: "lavar 20 pratos e 40 talheres ou 5 panelas engorduradas"
+    enunciado: "Netflix ou dormir?"
     alternativas: [
        {
-          texto: "lavar prato e talheres",
+          texto: "Netflix",
           afirmacao: [
-            "bem melhor",
-            "mais facil também"
+            "aquele série que você começa e nao para mais...",
+            "cê sabe que vai assistir ate tarde na madruga ne?"
           ], 
        },
        {
-          texto: "5 panelas",
+          texto: "Dormir",
           afirmacao: [
-            "ce ta doidjo",
-            "tu e muito e burro, malucao"
+            "sono venceu",
+            "mas amanha vc se arrepende de nao ter visto aquele episodio"
           ], 
        }, 
     ]
